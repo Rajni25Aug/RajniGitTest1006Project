@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Gen-SIQA-Test@ibm.com</value>
-    <value name="lastModifiedDate">1781073127146</value>
+    <value name="lastModifiedDate">1781073144702</value>
     <value name="displayName">testjms</value>
     <value name="description">JNDI,JMSAndJDBCSSL</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -93,32 +93,6 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">1</value>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">PACKAGES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">SSL_JDBC_Test</value>
-          <value name="groupName">SSL_JDBC_Test;1.0</value>
-          <null name="services"/>
-        </record>
-        <Boolean name="isProjectPackage">false</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">SSL_JDBC_Test.services:getSSLandCloseConn</value>
-          <value name="serviceName">SSL_JDBC_Test.services:getSSLandCloseConn</value>
-          <value name="displayName">getSSLandCloseConn</value>
-          <value name="assetType">Flow Service</value>
-          <value name="nsName">SSL_JDBC_Test.services:getSSLandCloseConn</value>
-          <value name="itemType">flowService</value>
-        </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">3</number>
-        <value name="nodePathNew">2</value>
-        <number name="nodeIndex" type="Long">2</number>
-        <number name="lineNumberForDebug" type="Long">3</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">2</value>
       </record>
     </record>
   </record>
