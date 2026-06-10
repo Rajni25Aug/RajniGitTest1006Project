@@ -13,7 +13,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:getSSLandCloseConn">
+<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:getSSLandCloseConn" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
