@@ -8,6 +8,12 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: SSL_JDBC_Test
+  version: "1.0"
+  gitServerName: RajniVCTest
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Rajni25Aug
+  gitBranch: main
+- name: JMS2waySSL
   gitServerName: RajniVCTest
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
@@ -16,6 +22,8 @@ services:
 - serviceName: project.rajnigittest1006.integrations:reftest
   packages:
   - name: RajniGitTest1006Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
@@ -26,6 +34,8 @@ services:
 - serviceName: project.rajnigittest1006.referencedata:refrenceData
   packages:
   - name: RajniGitTest1006Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
